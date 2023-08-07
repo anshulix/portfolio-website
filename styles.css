@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    width: 100vw;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(2, 2, 40);
+    width: 100%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+
+    color: lavender;
+    font-size: 1.1rem;
+
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 80px 0;
+
+
+}
+
+.leftsection .btn {
+    padding: 10px;
+    background: #000021;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.purple {
+    color: rgb(94, 53, 132);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(94, 53, 132);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 60px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 180px;
+
+}
+
+.image-top {
+    width: 80px;
+    position: relative;
+    top: -70px;
+    left: -38px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 25px;
+    width: 200px;
+    left: -38px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 25px;
+    color: gray;
+    width: 200px;
+    left: -38px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: rgb(22, 5, 39);
+    height: 250px;
+
+}
+
+.footer {
+    display: flex;
+    padding: 25px 125px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 225px;
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+.form>form {
+    position: relative;
+    top: 30px;
+    left: -336px;
+    width: 771px;
+    height: 393px;
+
+}
+
+.form>form>input {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000021;
+    color: #9c97f1;
+    border: 2px solid #9c97f1;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.form>form>textarea {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000021;
+    color: #9c97f1;
+    border: 2px solid #9c97f1;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form>form>button {
+    padding: 10px;
+    background: #000021;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about {
+    text-align: center;
+    margin: auto;
+}
+@media (max-width: 340px) {
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    .firstsection {
+        flex-direction: column;
+    }
+
+    .firstsection>div {
+        width: 100%;
+    }
+
+    .secondsection .vertical {
+        margin: 0 10px;
+    }
+
+    .image-top,
+    .vertical-title,
+    .vertical-desc {
+        left: -10px;
+    }
+
+    .form>form {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 767px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .firstsection {
+        flex-direction: column;
+    }
+
+    .firstsection>div {
+        width: 100%;
+    }
+
+    .secondsection .vertical {
+        margin: 0 20px;
+    }
+
+    .image-top,
+    .vertical-title,
+    .vertical-desc {
+        left: -15px;
+    }
+
+    .form>form {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .firstsection>div {
+        width: 45%;
+    }
+
+    .secondsection .vertical {
+        margin: 0 80px;
+    }
+
+    .image-top,
+    .vertical-title,
+    .vertical-desc {
+        left: -30px;
+    }
+
+    .form>form {
+        width: 100%;
+        left: 0;
+    }
+}
