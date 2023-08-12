@@ -188,16 +188,8 @@ footer {
     justify-content: space-around;
 }
 
-.form>form {
-    position: relative;
-    top: 30px;
-    left: -336px;
-    width: 771px;
-    height: 393px;
 
-}
-
-.form>form>input {
+.form input {
     border-radius: 10px;
     padding: 10px;
     font-size: 20px;
@@ -205,13 +197,12 @@ footer {
     background-color: #000021;
     color: #9c97f1;
     border: 2px solid #9c97f1;
-    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
 
 }
 
-.form>form>textarea {
+.form textarea {
     border-radius: 10px;
     padding: 10px;
     font-size: 20px;
@@ -219,11 +210,10 @@ footer {
     background-color: #000021;
     color: #9c97f1;
     border: 2px solid #9c97f1;
-    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
 }
-.form>form>button {
+.form button {
     padding: 10px;
     background: #000021;
     color: white;
